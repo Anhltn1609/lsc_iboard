@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--        <item-->
+<!--            android:id="@+id/homeFragment2"-->
+<!--            android:title="Home"-->
+<!--            android:icon="@drawable/ic_bottom_menu_1"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/contactFragment"-->
+<!--            android:title="Contact"-->
+<!--            android:icon="@drawable/ic_bottom_menu_2"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/plusFragment"-->
+<!--            android:title=""-->
+<!--            android:icon="@drawable/ic_bottom_menu_3"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/cartFragment"-->
+<!--            android:title="Cart"-->
+<!--            android:icon="@drawable/ic_bottom_menu_3"-->
+<!--            />-->
+
+<!--        <item-->
+<!--            android:id="@+id/customerFragment"-->
+<!--            android:title="Customer"-->
+<!--            android:icon="@drawable/ic_bottom_menu_5"-->
+<!--            />-->
+</menu>

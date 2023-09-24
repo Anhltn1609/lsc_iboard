@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/cartFragment">
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.lsc_app.utils.uii.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.lsc_app.utils.uii.Contact.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/customerFragment"
+        android:name="com.example.lsc_app.utils.uii.Customer.CustomerFragment"
+        android:label="fragment_customer"
+        tools:layout="@layout/fragment_customer" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.lsc_app.utils.uii.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_homeFragment2_to_plusFragment"
+            app:destination="@id/plusFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_customerFragment"
+            app:destination="@id/customerFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plusFragment"
+        android:name="com.example.lsc_app.utils.uii.plus.PlusFragment"
+        android:label="fragment_plus"
+        tools:layout="@layout/fragment_plus" >
+    </fragment>
+</navigation>

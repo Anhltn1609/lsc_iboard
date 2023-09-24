@@ -13,7 +13,7 @@ import androidx.viewbinding.ViewBinding
 abstract class BaseActivity<VBinding : ViewBinding>(private val bindingInflater: (LayoutInflater) -> VBinding) :
     AppCompatActivity() {
     private var _binding: VBinding? = null
-    protected val binding: VBinding
+    protected val binding
         get() = _binding as VBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

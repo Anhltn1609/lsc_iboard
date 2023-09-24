@@ -41,9 +41,9 @@ android {
 dependencies {
     //lifecycle
     implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
-    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
-    implementation ("androidx.lifecycle:lifecycle-runtime:2.2.0")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation ("androidx.lifecycle:lifecycle-runtime:2.6.2")
 
     // koin
 //    def koin_version = "3.3.0"
@@ -65,6 +65,13 @@ dependencies {
     //    def okhttp_version = "4.7.2"
     implementation ("com.squareup.okhttp3:okhttp:4.7.2")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.7.2")
+
+    // def navigation_version = "2.5.3"
+    implementation  ("androidx.navigation:navigation-ui:2.5.3")
+    implementation ("androidx.navigation:navigation-fragment:2.5.3")
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.5.3")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.5.3")
+
 
     // create client
 
