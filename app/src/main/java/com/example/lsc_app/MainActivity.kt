@@ -13,23 +13,26 @@ import com.example.lsc_app.databinding.ActivityMainBinding
 private const val TAG = "MainActivity"
 class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
     private val navController by lazy { findNavController(R.id.nav_host_fragment_activity_main) }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
     override fun handleEvent() {
+
     }
+
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//        setContentView(R.layout.activity_main)
+//    }
+//    override fun handleEvent() {
+//    }
 
     override fun bindData() {
         setupWithNavController(binding.navView, navController)
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
                 R.id.homeFragment2 -> setNavigationVisible(true)
-//                R.id.contactFragment -> setNavigationVisible(true)
-//                R.id.plusFragment -> setNavigationVisible(true)
-//                R.id.cartFragment -> setNavigationVisible(true)
-//                R.id.customerFragment -> setNavigationVisible(true)
+                R.id.contactFragment -> setNavigationVisible(true)
+                R.id.plusFragment -> setNavigationVisible(true)
+                R.id.cartFragment -> setNavigationVisible(true)
+                R.id.customerFragment -> setNavigationVisible(true)
                 else -> {
                     setNavigationVisible()
                 }
