@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/outline"
+    android:layout_margin="20dp">
+    <TextView
+        android:paddingStart="16dp"
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_weight="3"
+        android:text="Ngành hàng" />
+
+    <ImageView
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_keyboard_arrow_right_24"
+        android:layout_marginEnd="16dp"/>
+
+</LinearLayout>
+
+

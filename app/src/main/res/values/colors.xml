@@ -5,4 +5,5 @@
     <color name="main_color">#AE445A</color>
     <color name="grey_10_percent">#BDBDBD</color>
     <color name="orange">#F94C10</color>
+    <color name="grey_30_percent">#656565</color>
 </resources>
